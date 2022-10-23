@@ -1,0 +1,52 @@
+<html>
+<head>
+       <title>  HTML </title>
+	   
+</head>
+
+<hl> HTML 2 Questions </hl>
+
+
+<body>
+
+<P>
+Que 1: What do you understand by HTML?<br><br>
+<input type="radio" name="question1" > HTML describes structure of a webpage<br>
+<input type="radio" name="question1" >HTML is the standard markup language used to create web pages<br>
+<input type="radio" name="question1" >HTML consists of a set of elements that helps the browser how to view the content<br>
+<input type="radio" name="question1" id="correct1">All of the above<br><br>
+
+Que 3: HTML stands for ___<br><br>
+<input type="radio" name="question2" id="correct2">HyperText Markup Language<br>
+<input type="radio" name="question2" >HyperText Machine Language<br>
+<input type="radio" name="question2" > HyperText Marking Language<br>
+<input type="radio" name="question2" >HighText Marking Language<br><br>
+
+</p>
+
+<input type="submit" name="submit" value="sudmit ASST" onclick="result()">
+<form>
+<script type="text/javascript">
+
+          function result() {
+		  var score=0;
+		  if (document.getElementById('correct1').checked)
+		  {
+		  score++;
+		 
+		 }
+		  
+		  if (document.getElementById('correct2').checked)
+		  {
+		  score++;
+		    
+		  }
+		  
+		  document.write(" your score is:"+score) ;
+		 
+		  }
+ </script>
+ 
+ </body>
+ 
+ </html>
